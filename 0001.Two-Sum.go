@@ -1,4 +1,6 @@
-package leetcode
+package main
+
+import "fmt"
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
@@ -10,4 +12,8 @@ func twoSum(nums []int, target int) []int {
 		m[nums[i]] = i
 	}
 	return nil
+}
+
+func main() {
+	fmt.Print(twoSum([]int{2, 7, 11, 15}, 9))
 }
