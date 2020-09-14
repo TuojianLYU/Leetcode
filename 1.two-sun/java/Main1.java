@@ -1,5 +1,5 @@
 import java.util.HashMap;
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         int[] nums={5,7,9,11,13};
         int target = 12;
